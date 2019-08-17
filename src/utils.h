@@ -4,5 +4,6 @@
 #include "cshared.h"
 
 SEXP cshared_shared_empty_int;
+SEXP strings_tidyverse;
 
 #endif
