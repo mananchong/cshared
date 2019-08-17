@@ -8,7 +8,5 @@ SEXP cshared_init_utils() {
   R_PreserveObject(cshared_shared_empty_int);
   MARK_NOT_MUTABLE(cshared_shared_empty_int);
 
-  Rprintf("Initialized!");
-
   return R_NilValue;
 }
